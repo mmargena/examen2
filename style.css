@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.catamaran-<uniquifier> {
+  font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+:root{
+	--color-negro:#282d33;
+	--color-naranja: #f7b614;
+	--color-titulos:#2a2a32;
+	--color-contenido: #AAA;
+}
+body{
+	color:var(--color-contenido);
+}
+
+header{
+	position: relative;
+	background-color: #282932;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+.btn-primary {
+	background-color: var(--color-naranja);
+	border: 2px solid var(--color-naranja);
+	border-radius: 0;
+	color: var(--color-negro);
+	font-weight: 500;
+	padding: 15px 50px;
+}
+
+.section{
+	padding: 80px 0;
+	}
+
+#hero{
+	padding: 80px 0;
+}
+
+#hero {
+	background-image: url( "../img/slider-glob.png");
+	background-color: var(--color-negro);
+	
+}
+.titulos {
+	font-size: 40px;
+	color: #FFFFFF;
+	font-weight: 700;
+}
+
+.titulo {
+	font-size: 40px;
+	color: var(--color-naranja);
+	font-weight: 700;
+}
+
+#sit at home {
+	background-color: var(--color-negro);
+}
+.bg-grey {
+	background-color:#282D33;
+}
+h3{
+	font-size: 16px;
+	color: var(--color-negro);
+	font-weight: 700;
+}
+footer{
+	background-color: #282932;
+	background-image: url(../img/footer-bg.png);
+	background-size: cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+	
+
+}
+
+footer p span{
+	color: #f7b614;
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
